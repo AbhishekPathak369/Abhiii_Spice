@@ -213,7 +213,7 @@ html {
   display: block;
   opacity: 0;
   text-align: center;
-  animation: fadeText 5s infinite;
+  animation: fadeText 12s infinite;
 }
 
 .slogan-text:nth-child(1) { animation-delay: 0s; color: #ff416c; }
