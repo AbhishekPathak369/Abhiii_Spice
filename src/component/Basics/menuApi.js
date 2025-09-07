@@ -49,15 +49,7 @@ const Menu = [
     description:
       "Cheesy, saucy, and totally over the top. Pizza with a desi twist.",
   },
-  {
-    id: 6,
-    image: "../images/nonvegthali.jpg",
-    name: "Non-Veg Thali",
-    category: "dinner",
-    price: "180₹",
-    title: "Removed",
-    description: "Non-veg item removed as per request.",
-  },
+ 
   {
     id: 7,
     image: "../images/sweet.jpg",
