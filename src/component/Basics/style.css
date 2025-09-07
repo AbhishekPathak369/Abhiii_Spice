@@ -1,3 +1,10 @@
+:root{
+  /* change these if you want different spacing globally */
+  --header-height: 130px;   /* header total fixed height */
+  --navbar-height: 60px;    /* navbar total fixed height */
+  --page-gap: 10px;         /* extra spacing between navbar and content */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -157,6 +164,7 @@ html {
 }
 
 /* ---------- Header ---------- */
+/* use the CSS variable for header height so navbar can rely on it */
 .restaurant-header {
   position: fixed;
   top: 0;
@@ -169,8 +177,9 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 130px; /* reduced height */
+  height: var(--header-height); /* use variable */
   justify-content: flex-end;
+  box-sizing: border-box;
 }
 
 .restaurant-header h1 {
@@ -217,8 +226,10 @@ html {
   55%, 100% { opacity: 0; }
 }
 
+/* ensure the underline sits below name and slogan (no overlap) */
 .brand-underline {
-  margin-top: 29px;  
+  margin-top: 6px;  /* moved up so it does not overlap slogans */
+  margin-bottom: 6px;
   width: 90px;
   height: 3px;
   border-radius: 0px;
@@ -234,21 +245,22 @@ html {
 }
 
 /* ---------- Navbar ---------- */
+/* navbar top is driven by --header-height so it always sits exactly below header */
 .navbar {
   position: fixed;
-  top: 130px; /* exact bottom of header */
+  top: var(--header-height);
   left: 0;
   width: 100%;
   z-index: 999;
   text-align: center;
   background: #444; /* navbar background full width */
-  min-height: 60px;
+  min-height: var(--navbar-height);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.03);
-  transition: top 0.3s ease; /* optional scroll-hide */
+  transition: top 0.25s ease;
 }
 
 .btn-group {
@@ -312,14 +324,20 @@ html {
   border-bottom: 1px solid #ddd;
 }
 
-/* Page content spacing */
+/* Page content spacing uses the variables so it always sits below header+navbar */
 .page-content {
-  margin-top: 190px; /* header + navbar height */
+  margin-top: calc(var(--header-height) + var(--navbar-height) + var(--page-gap));
   background: #aaa;
 }
 
 /* ----------------- Responsive ----------------- */
 @media (max-width: 768px) {
+  :root {
+    /* slightly smaller header/navbar on tablets if desired */
+    --header-height: 120px;
+    --navbar-height: 56px;
+  }
+
   .restaurant-header h1 { font-size: 24px; }
   .slogan-container { font-size: 12px; }
   .brand-underline { width: 50px; }
@@ -329,11 +347,17 @@ html {
 }
 
 @media (max-width: 480px) {
+  :root {
+    /* tune header/navbar sizes for small phones */
+    --header-height: 120px; /* ensure navbar aligns exactly under header */
+    --navbar-height: 56px;
+  }
+
   .restaurant-header h1 { font-size: 20px; }
   .slogan-container { font-size: 11px; }
   .brand-underline { width: 40px; }
-  .navbar { top: 140px; padding: 0; }
-  .btn-group { display: none; }
+  /* do not set .navbar top here — it's driven by the variables */
+  .btn-group { display: none; } /* hide regular buttons */
   .hamburger { display: block; }
 }
 
