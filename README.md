@@ -53,13 +53,13 @@ Run the app
 npm start
 
 
-App will run at http://localhost:3000/
+App will run at: abhiii-spice.vercel.app
 
 📫 Connect With Me
 
 LinkedIn: Abhishek Pathak
 
-GitHub: AbhishekPathak369
+GitHub: https://github.com/AbhishekPathak369
 
 ⭐ If you like this project, don’t forget to star the repo!
 
