@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+🍴 Abhiii Spice – Restaurant Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and fully responsive Restaurant Website built using React.js. This project showcases a restaurant’s brand with a clean UI, smooth navigation, and engaging sections like menu, about, and contact.
 
-## Available Scripts
+🚀 Live Demo: Click Here
 
-In the project directory, you can run:
+✨ Features
 
-### `npm start`
+🏠 Elegant Homepage with hero section
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📖 About Us section to highlight the restaurant’s story
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🍲 Menu Page to display delicious food items
 
-### `npm test`
+📞 Contact Page for reservations and customer inquiries
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📱 Fully responsive design (mobile-friendly)
 
-### `npm run build`
+🎨 Modern styling with CSS for an engaging experience
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend: React.js, HTML, CSS, JavaScript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Styling: CSS (custom design)
 
-### `npm run eject`
+Routing: React Router
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Deployment: Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📷 Screenshots
+Homepage Preview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📦 Installation & Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository
 
-## Learn More
+git clone https://github.com/AbhishekPathak369/abhiii-spice.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Navigate to the project folder
 
-### Code Splitting
+cd abhiii-spice
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm install
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Run the app
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+App will run at http://localhost:3000/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📫 Connect With Me
 
-### `npm run build` fails to minify
+LinkedIn: Abhishek Pathak
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: AbhishekPathak369
+
+⭐ If you like this project, don’t forget to star the repo!
+
+Would you like me to also prepare a README for your Weather App in the same polished style so all three projects (Todo, Weather, Restaurant) look consistent on your GitHub?
