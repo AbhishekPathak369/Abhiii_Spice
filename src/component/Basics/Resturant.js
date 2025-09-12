@@ -36,11 +36,11 @@ const Resturant = () => {
 
         <div className="slogan-container">
           <span className="slogan-text">Where Zaika Meets Zidd</span>
-          // <span className="slogan-text">Deliciousness on Every Plate</span>
-          // <span className="slogan-text">Taste That Stays With You</span>
+          <span className="slogan-text">Deliciousness on Every Plate</span>
+          <span className="slogan-text">Taste That Stays With You</span>
         </div>
 
-        <div className="brand-underline"></div>
+        // <div className="brand-underline"></div>
       </div>
 
       {/* Page content */}
