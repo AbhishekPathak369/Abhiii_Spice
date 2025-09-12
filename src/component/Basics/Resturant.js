@@ -40,7 +40,7 @@ const Resturant = () => {
           <span className="slogan-text">Taste That Stays With You</span>
         </div>
 
-        // <div className="brand-underline"></div>
+        
       </div>
 
       {/* Page content */}
